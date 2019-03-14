@@ -32,11 +32,10 @@
 #import <SDWebImage/UIButton+WebCache.h>
 #import <MJRefresh/MJRefresh.h>
 #import <SDCycleScrollView/SDCycleScrollView.h>
-#import <ZJKitTool/ZJKitTool.h>
+#import "ZJKitTool.h"
 #import <MJExtension/MJExtension.h>
 #import <EasyShowView/EasyShowView.h>
 
-#import <FSScrollContentView/FSScrollContentView.h>
 #import "SGPagingView.h"
 #import <KSPhotoBrowser/KSPhotoBrowser.h>
 

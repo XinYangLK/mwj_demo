@@ -115,9 +115,7 @@
                                         superView:self.contentView
                                       constraints:^(MASConstraintMaker *make) {
                                           make.left.mas_equalTo(self.goodsTitleLab);
-                                          make.right.offset  = AdaptedWidth(-15);
-//                                          make.bottom.offset = AdaptedHeight(-60);
-                                          make.top.mas_equalTo(self.goodsTitleLab.mas_bottom).offset= AdaptedHeight(10);
+                                          make.right.offset  = AdaptedWidth(-15);                                          make.top.mas_equalTo(self.goodsTitleLab.mas_bottom).offset= AdaptedHeight(10);
                                           make.height.offset = AdaptedHeight(15);
                                       }];
     }

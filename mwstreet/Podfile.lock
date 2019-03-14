@@ -30,7 +30,6 @@ PODS:
   - EasyShowView/EasyText (2.1.4):
     - EasyShowView/EasyShowUtils
   - FLAnimatedImage (1.0.12)
-  - FSScrollContentView (1.0.9)
   - IQKeyboardManager (6.2.0)
   - KSPhotoBrowser (0.2.4):
     - FLAnimatedImage (~> 1.0)
@@ -65,66 +64,15 @@ PODS:
   - ZFPlayer/ControlView (3.2.3):
     - ZFPlayer/Core
   - ZFPlayer/Core (3.2.3)
-  - ZJKitTool (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-    - ZJKitTool/ZJCategory (= 2.3.5)
-    - ZJKitTool/ZJControllerKit (= 2.3.5)
-    - ZJKitTool/ZJGeneraMacros (= 2.3.5)
-    - ZJKitTool/ZJKit (= 2.3.5)
-    - ZJKitTool/ZJKitMasonry (= 2.3.5)
-    - ZJKitTool/ZJPickerView (= 2.3.5)
-    - ZJKitTool/ZJTool (= 2.3.5)
-  - ZJKitTool/ZJCategory (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-    - ZJKitTool/ZJCategory/Object (= 2.3.5)
-    - ZJKitTool/ZJCategory/UIKit (= 2.3.5)
-  - ZJKitTool/ZJCategory/Object (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-  - ZJKitTool/ZJCategory/UIKit (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-  - ZJKitTool/ZJControllerKit (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-    - ZJKitTool/ZJGeneraMacros
-  - ZJKitTool/ZJGeneraMacros (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-  - ZJKitTool/ZJKit (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-  - ZJKitTool/ZJKitMasonry (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-    - ZJKitTool/ZJGeneraMacros
-  - ZJKitTool/ZJPickerView (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
-  - ZJKitTool/ZJTool (2.3.5):
-    - Masonry
-    - MBProgressHUD
-    - YYCategories
   - ZYPinYinSearch (2.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
   - EasyShowView
-  - FSScrollContentView
   - IQKeyboardManager
   - KSPhotoBrowser
   - Masonry (~> 1.1.0)
+  - MBProgressHUD
   - MJExtension
   - MJRefresh
   - NullSafe (~> 2.0)
@@ -133,11 +81,11 @@ DEPENDENCIES:
   - SGAdvertScrollView (~> 1.2.7)
   - SKUDataFilter
   - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+  - YYCategories
   - YYText
   - ZFPlayer
   - ZFPlayer/AVPlayer
   - ZFPlayer/ControlView
-  - ZJKitTool
   - ZYPinYinSearch (~> 2.0.1)
 
 SPEC REPOS:
@@ -145,7 +93,6 @@ SPEC REPOS:
     - AFNetworking
     - EasyShowView
     - FLAnimatedImage
-    - FSScrollContentView
     - IQKeyboardManager
     - KSPhotoBrowser
     - Masonry
@@ -162,14 +109,12 @@ SPEC REPOS:
     - YYCategories
     - YYText
     - ZFPlayer
-    - ZJKitTool
     - ZYPinYinSearch
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   EasyShowView: ec832e175d5926baef413e2dc095fb4ec5c3add4
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  FSScrollContentView: 2fdda268eb8f1a1d4aefd470bf70702dbc346d50
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   KSPhotoBrowser: 1f60c68401f34bcc223838c8592269b4a10a83bf
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -186,9 +131,8 @@ SPEC CHECKSUMS:
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   ZFPlayer: 7cf23ed94b5e48a61979f9509fec615933eaf7b4
-  ZJKitTool: 90eb6c8be8b62959bed1c85575521b4177010259
   ZYPinYinSearch: a32d2661ce14d16843ef1d684a9dd7a8d55a4a47
 
-PODFILE CHECKSUM: 48ce85af543c1f6473bc284ba9d12c20f0e1baf9
+PODFILE CHECKSUM: 6ff024d15741d9c44ada7b69a7df870f51f8e6dd
 
 COCOAPODS: 1.5.0.beta.1

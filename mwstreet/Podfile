@@ -4,7 +4,7 @@
 target 'mwstreet' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-pod 'EasyShowView'
+  pod 'EasyShowView'
   pod 'SKUDataFilter'
   pod 'PPNumberButton'
   pod 'AFNetworking', '~> 3.2.1'
@@ -14,17 +14,16 @@ pod 'EasyShowView'
   pod 'NullSafe', '~> 2.0'
   pod 'SDCycleScrollView'
   pod 'SGAdvertScrollView','~> 1.2.7'
-  pod 'FSScrollContentView'
   pod 'KSPhotoBrowser'
   pod 'MJRefresh'
-  pod 'ZJKitTool'
   pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
   pod 'YYText'
   pod 'ZYPinYinSearch', '~> 2.0.1'
   pod 'ZFPlayer'
   pod 'ZFPlayer/AVPlayer'
   pod 'ZFPlayer/ControlView'
-  
+  pod 'MBProgressHUD'
+  pod 'YYCategories'
   # Pods for mwstreet
 
   target 'mwstreetTests' do
